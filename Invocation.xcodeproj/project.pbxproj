@@ -15,6 +15,7 @@
 		CC33CF041D3DBA6300666F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC33CF021D3DBA6300666F03 /* LaunchScreen.storyboard */; };
 		CC33CF0F1D3DBA6300666F03 /* InvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33CF0E1D3DBA6300666F03 /* InvocationTests.m */; };
 		CC33CF1A1D3DBA6300666F03 /* InvocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33CF191D3DBA6300666F03 /* InvocationUITests.m */; };
+		CC33CF291D3DBA8100666F03 /* myclass.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33CF281D3DBA8100666F03 /* myclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CC33CF151D3DBA6300666F03 /* InvocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC33CF191D3DBA6300666F03 /* InvocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvocationUITests.m; sourceTree = "<group>"; };
 		CC33CF1B1D3DBA6300666F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC33CF271D3DBA8100666F03 /* myclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myclass.h; sourceTree = "<group>"; };
+		CC33CF281D3DBA8100666F03 /* myclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CC33CEF81D3DBA6300666F03 /* AppDelegate.m */,
 				CC33CEFA1D3DBA6300666F03 /* ViewController.h */,
 				CC33CEFB1D3DBA6300666F03 /* ViewController.m */,
+				CC33CF271D3DBA8100666F03 /* myclass.h */,
+				CC33CF281D3DBA8100666F03 /* myclass.m */,
 				CC33CEFD1D3DBA6300666F03 /* Main.storyboard */,
 				CC33CF001D3DBA6300666F03 /* Assets.xcassets */,
 				CC33CF021D3DBA6300666F03 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC33CF291D3DBA8100666F03 /* myclass.m in Sources */,
 				CC33CEFC1D3DBA6300666F03 /* ViewController.m in Sources */,
 				CC33CEF91D3DBA6300666F03 /* AppDelegate.m in Sources */,
 				CC33CEF61D3DBA6300666F03 /* main.m in Sources */,
